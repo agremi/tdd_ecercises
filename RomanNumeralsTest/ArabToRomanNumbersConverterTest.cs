@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace RomanNumeralsTest
 {
-    public class Tests
+    public class RomanNumeralsTest
     {
         private RomanToArabNumbersConverter? _converter;
 
@@ -14,22 +14,36 @@ namespace RomanNumeralsTest
         }
 
         [TestCase("I", 1)]
-        [TestCase("II", 2)]
-        [TestCase("III", 3)]
-        [TestCase("IV", 4)]
         [TestCase("V", 5)]
-        [TestCase("VI", 6)]
-        [TestCase("VII", 7)]
-        [TestCase("VIII", 8)]
         [TestCase("X", 10)]
-        [TestCase("IX", 9)]
-        [TestCase("XI", 11)]
-        [TestCase("XII", 12)]
-        [TestCase("XIII", 13)]
-        public void ShouldConvertRomanNumeralsToArabic(string roman, int expected)
+        public void ShouldReturnValueIfNumeralLenghtIsOne(string roman, int expected)
         {
             var result = _converter.ConvertFromRomanToArab(roman);
             Assert.That(result, Is.EqualTo(expected));
+        }
+
+        [TestCase("III", 3)]
+        [TestCase("XX", 20)]
+        public void ShouldReturnValueIfNumeralIsMadeOfOnlyOneLetter(string roman, int expected)
+        {
+            var result = _converter.ConvertFromRomanToArab(roman);
+            Assert.That(result, Is.EqualTo(expected));
+        }
+
+        [TestCase("IV", 4)]
+        [TestCase("IX", 9)]
+        [TestCase("XXVI", 26)]
+        public void ShouldSubtractIfLowerValueIsOnTheLeftOfGreaterValue(string roman, int expected)
+        {
+            var result = _converter.ConvertFromRomanToArab(roman);
+            Assert.That(result, Is.EqualTo(expected));
+        }
+        
+        [Test]
+        public void ShouldThrowAnExceptionIfTheNumeralIsNotFormallyCorrect()
+        {
+            var invalidRomanNumeral = "IIII";
+            Assert.Throws<ArgumentException>(() => _converter.ConvertFromRomanToArab(invalidRomanNumeral));
         }
     }
 }
