@@ -1,0 +1,15 @@
+C:\Users\magresti\Desktop\Sviluppo\td\tdd\RomanNumerals\RomanNumerals\bin\Debug\net6.0\RomanNumerals.exe
+C:\Users\magresti\Desktop\Sviluppo\td\tdd\RomanNumerals\RomanNumerals\bin\Debug\net6.0\RomanNumerals.deps.json
+C:\Users\magresti\Desktop\Sviluppo\td\tdd\RomanNumerals\RomanNumerals\bin\Debug\net6.0\RomanNumerals.runtimeconfig.json
+C:\Users\magresti\Desktop\Sviluppo\td\tdd\RomanNumerals\RomanNumerals\bin\Debug\net6.0\RomanNumerals.dll
+C:\Users\magresti\Desktop\Sviluppo\td\tdd\RomanNumerals\RomanNumerals\bin\Debug\net6.0\RomanNumerals.pdb
+C:\Users\magresti\Desktop\Sviluppo\td\tdd\RomanNumerals\RomanNumerals\obj\Debug\net6.0\RomanNumerals.csproj.AssemblyReference.cache
+C:\Users\magresti\Desktop\Sviluppo\td\tdd\RomanNumerals\RomanNumerals\obj\Debug\net6.0\RomanNumerals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\magresti\Desktop\Sviluppo\td\tdd\RomanNumerals\RomanNumerals\obj\Debug\net6.0\RomanNumerals.AssemblyInfoInputs.cache
+C:\Users\magresti\Desktop\Sviluppo\td\tdd\RomanNumerals\RomanNumerals\obj\Debug\net6.0\RomanNumerals.AssemblyInfo.cs
+C:\Users\magresti\Desktop\Sviluppo\td\tdd\RomanNumerals\RomanNumerals\obj\Debug\net6.0\RomanNumerals.csproj.CoreCompileInputs.cache
+C:\Users\magresti\Desktop\Sviluppo\td\tdd\RomanNumerals\RomanNumerals\obj\Debug\net6.0\RomanNumerals.dll
+C:\Users\magresti\Desktop\Sviluppo\td\tdd\RomanNumerals\RomanNumerals\obj\Debug\net6.0\refint\RomanNumerals.dll
+C:\Users\magresti\Desktop\Sviluppo\td\tdd\RomanNumerals\RomanNumerals\obj\Debug\net6.0\RomanNumerals.pdb
+C:\Users\magresti\Desktop\Sviluppo\td\tdd\RomanNumerals\RomanNumerals\obj\Debug\net6.0\RomanNumerals.genruntimeconfig.cache
+C:\Users\magresti\Desktop\Sviluppo\td\tdd\RomanNumerals\RomanNumerals\obj\Debug\net6.0\ref\RomanNumerals.dll
